@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guaranglish</string>
+    <string name="login_action_title" >Log in</string>
+    <string name="register_action_title">Sign Up</string>
+</resources>

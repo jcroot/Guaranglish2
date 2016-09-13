@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Design.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@drawable/maite_bg</item>
+    </style>
+
+    <style name="Theme.Design.Welcome">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="Theme.Design.ButtonWelcome">
+        <item name="android:textColor">#6e57a1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@drawable/gua_welcome</item>
+    </style>
+
+</resources>

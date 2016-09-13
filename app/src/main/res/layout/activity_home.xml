@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.arrobasoft.guaranglish.ui.activities.HomeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/welcome1_"
+            android:layout_gravity="right"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/welcome2_"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            style="@style/Theme.Design.ButtonWelcome"
+            android:gravity="center" />
+
+        <TextSwitcher
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textSwitcher"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_action_title"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:background="@drawable/login_btnw"
+            android:textSize="17dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_action_title"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:background="@drawable/singup"
+            android:textSize="17dp"
+            android:textColor="#6e57a1"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
